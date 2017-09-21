@@ -1,0 +1,14 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+.navbar {
+    // gradient from http://uigradients.com/
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(left, #434343, #000000);
+    background: -moz-linear-gradient(left, #434343, #000000);
+    background: -o-linear-gradient(left, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}    
